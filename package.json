@@ -1,0 +1,54 @@
+{
+  "name": "openai-oss",
+  "version": "0.1.0",
+  "description": "CLI toolkit for open-source maintainers: issue triage, PR summaries, and release notes powered by the OpenAI API",
+  "type": "module",
+  "bin": {
+    "openai-oss": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js",
+    "typecheck": "tsc --noEmit",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "open-source",
+    "maintainer",
+    "github",
+    "triage",
+    "pull-request",
+    "release-notes",
+    "automation"
+  ],
+  "author": "FATHERYARIK",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FATHERYARIK/openai-oss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FATHERYARIK/openai-oss/issues"
+  },
+  "homepage": "https://github.com/FATHERYARIK/openai-oss#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "openai": "^4.104.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
