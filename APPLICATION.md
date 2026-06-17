@@ -1,74 +1,60 @@
-# Заявка Codex for Open Source — готовый текст
+# Codex for Open Source — готовая заявка
 
 Форма: https://openai.com/form/codex-for-oss/
 
-Репозиторий: https://github.com/FATHERYARIK/openai-oss
+> Имя и фамилия: в форме у вас, похоже, перепутаны местами. Ниже — правильный порядок (Iaroslav = имя, Iasinski = фамилия).
 
 ---
 
 ## First name *
-
 ```
-[Ваше имя]
+Iaroslav
 ```
 
 ## Last name *
-
 ```
-[Ваша фамилия]
+Iasinski
 ```
 
 ## Email *
-
 ```
 yasik26rus@gmail.com
 ```
 
 ## GitHub username *
-
 ```
 FATHERYARIK
 ```
 
 ## GitHub repository URL *
-
 ```
 https://github.com/FATHERYARIK/openai-oss
 ```
 
 ## Describe your role *
+Выберите: **Primary maintainer**
 
-**Primary maintainer**
-
+## Why does this repository qualify? *
 ```
-I am the primary maintainer and author of openai-oss. I design the roadmap, review PRs, triage issues, maintain CI workflows, and handle releases.
-```
-
-## Why does this repository qualify? * (max 500)
-
-```
-openai-oss is a MIT-licensed CLI for OSS maintainers: issue triage, PR summaries, and release notes via OpenAI API, with GitHub Actions. Early-stage (0 stars) but targets a real gap—small projects lack lightweight maintainer automation. I maintain it actively and plan npm distribution for broader adoption in the JS/OSS ecosystem.
+openai-oss is a MIT-licensed CLI for open-source maintainers. It automates issue triage, pull-request summaries, and release-note drafting using the OpenAI API, with GitHub Actions workflows for PR review. Early-stage (0 stars) but addresses a real maintainer pain point: small OSS projects lack lightweight automation for triage and releases. I actively maintain the repo, CI, and roadmap toward npm distribution for the JavaScript OSS ecosystem.
 ```
 
 ## I'm interested in...
-
 - [x] Codex Security
 - [x] API credits for my project
 
 ## OpenAI Organization ID *
-
 ```
-[org-... с https://platform.openai.com/settings/organization/general]
+ВСТАВЬТЕ: org-xxxxxxxx
+```
+https://platform.openai.com/settings/organization/general
+
+## How will you use API credits? *
+```
+API credits will run openai-oss maintainer workflows in CI: PR diff summaries posted as review comments, automated issue triage suggestions, and release-note generation from commit history. Credits let me dogfood these flows on my public repos, harden the GitHub Actions integration, and publish a stable npm CLI other small OSS teams can adopt without building their own automation stack from scratch.
 ```
 
-## How will you use API credits? * (max 500)
-
+## Anything else we should know?
 ```
-API credits will power openai-oss workflows: automated issue triage labels, PR review summaries in GitHub Actions, and release-note generation. Credits reduce manual maintainer load on my repos and let me dogfood the toolkit before publishing to npm for other small OSS teams.
-```
-
-## Anything else? (max 500)
-
-```
-I maintain public OSS repos solo and handle triage, review, and releases myself. Codex Pro would speed core development; API credits would fund the GitHub Actions workflows documented in this repo. Happy to share usage metrics after launch.
+I maintain my public GitHub projects solo and handle triage, code review, releases, and CI myself. ChatGPT Pro with Codex would accelerate feature work on this toolkit; API credits would fund the Actions workflows documented in the repository. I am committed to keeping the project public, documenting maintainer use cases, and sharing adoption metrics as the tool matures.
 ```

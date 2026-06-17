@@ -1,5 +1,7 @@
 # openai-oss
 
+[![CI](https://github.com/FATHERYARIK/openai-oss/actions/workflows/ci.yml/badge.svg)](https://github.com/FATHERYARIK/openai-oss/actions/workflows/ci.yml)
+
 CLI toolkit that helps **open-source maintainers** automate repetitive work: issue triage, pull request summaries, and release note drafting.
 
 Maintainers spend a large share of their time on triage, review, and release hygiene. This project packages small, composable workflows that can run locally or inside GitHub Actions.
